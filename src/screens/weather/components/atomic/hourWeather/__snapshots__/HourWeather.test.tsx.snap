@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HourWeather  should render HourWeather 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "height": 90,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#8B8EA5",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    12:00
+  </Text>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 28,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Fontisto",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+          },
+        ]
+      }
+    >
+      18
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 12,
+            "lineHeight": 12,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+</View>
+`;

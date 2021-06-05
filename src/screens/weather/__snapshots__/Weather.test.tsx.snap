@@ -1,0 +1,615 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather  should render correctly with lateNavigation 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#191C39",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#fff"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;
+
+exports[`Weather  should render correctly with today 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#191C39",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Object {
+            "marginBottom": 45,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/cloud.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": undefined,
+                "width": undefined,
+              },
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "justifyContent": "space-between",
+              "marginTop": 15,
+              "paddingLeft": 32,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-ExtraBold",
+                  "fontSize": 52,
+                  "lineHeight": 61,
+                },
+                Object {
+                  "color": "#fff",
+                },
+              ]
+            }
+          >
+            Kharkiv
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#8B8EA5",
+                  "fontSize": 20,
+                  "lineHeight": 23.5,
+                },
+              ]
+            }
+          >
+            THURSDAY, APRIL 22
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 70,
+              "justifyContent": "space-between",
+              "marginTop": 22,
+              "paddingHorizontal": 32,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 60,
+                    "lineHeight": 70,
+                  },
+                ]
+              }
+            >
+              18
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 25,
+                    "lineHeight": 30,
+                  },
+                ]
+              }
+            >
+              0
+            </Text>
+          </View>
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#8B8EA5",
+                  "fontSize": 45,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Fontisto",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontSize": 12,
+                  },
+                ]
+              }
+            >
+              SCATTERED
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontSize": 12,
+                  },
+                ]
+              }
+            >
+              CLOUDS
+            </Text>
+          </View>
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 18,
+                    "lineHeight": 20,
+                  },
+                ]
+              }
+            >
+              6 /
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "WorkSans-Regular",
+                    },
+                    Object {
+                      "color": "#fff",
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                  ]
+                }
+              >
+                18
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "WorkSans-Regular",
+                    },
+                    Object {
+                      "color": "#fff",
+                      "fontSize": 12,
+                      "lineHeight": 12,
+                    },
+                  ]
+                }
+              >
+                0
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "WorkSans-Regular",
+                    },
+                    Object {
+                      "color": "#fff",
+                      "fontSize": 18,
+                      "lineHeight": 20,
+                    },
+                  ]
+                }
+              >
+                C
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 2,
+          "borderColor": "#8B8EA5",
+          "borderTopWidth": 2,
+          "flexDirection": "row",
+          "height": 160,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 32,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 90,
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "WorkSans-Regular",
+              },
+              Object {
+                "color": "#8B8EA5",
+                "fontSize": 12,
+              },
+            ]
+          }
+        >
+          16:00
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 28,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Fontisto",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 20,
+                },
+              ]
+            }
+          >
+            17.3
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 12,
+                  "lineHeight": 12,
+                },
+              ]
+            }
+          >
+            0
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 90,
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "WorkSans-Regular",
+              },
+              Object {
+                "color": "#8B8EA5",
+                "fontSize": 12,
+              },
+            ]
+          }
+        >
+          17:00
+        </Text>
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 28,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Fontisto",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 20,
+                },
+              ]
+            }
+          >
+            17.9
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 12,
+                  "lineHeight": 12,
+                },
+              ]
+            }
+          >
+            0
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 148,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 32,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <IconMock
+          fill="#fff"
+          height={32}
+          testID="Stat.Icon"
+          width={32}
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "WorkSans-Regular",
+              },
+              Object {
+                "color": "#fff",
+                "fontSize": 20,
+                "marginTop": 10,
+              },
+            ]
+          }
+        >
+          32%
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <IconMock
+          fill="#fff"
+          height={26}
+          testID="Stat.Icon"
+          width={26}
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "WorkSans-Regular",
+              },
+              Object {
+                "color": "#fff",
+                "fontSize": 20,
+                "marginTop": 10,
+              },
+            ]
+          }
+        >
+          6m/c
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <IconMock
+          fill="#fff"
+          height={28}
+          testID="Stat.Icon"
+          width={28}
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "WorkSans-Regular",
+              },
+              Object {
+                "color": "#fff",
+                "fontSize": 20,
+                "marginTop": 10,
+              },
+            ]
+          }
+        >
+          05:27
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <IconMock
+          fill="#fff"
+          height={28}
+          testID="Stat.Icon"
+          width={28}
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "WorkSans-Regular",
+              },
+              Object {
+                "color": "#fff",
+                "fontSize": 20,
+                "marginTop": 10,
+              },
+            ]
+          }
+        >
+          19:38
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

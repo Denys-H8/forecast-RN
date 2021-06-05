@@ -1,0 +1,1077 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CityCard 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingLeft": 33,
+      "paddingVertical": 20,
+    }
+  }
+  testID="CityCard.TouchableOpacity"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "width": 80,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 36,
+            "lineHeight": 42,
+          },
+        ]
+      }
+    >
+      20.7
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#8B8EA5",
+              "fontSize": 35,
+            },
+            Object {
+              "marginRight": 28,
+            },
+            Object {
+              "fontFamily": "Fontisto",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontFamily": "WorkSans-SemiBold",
+              "fontSize": 24,
+              "lineHeight": 28,
+            },
+          ]
+        }
+      >
+        City
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#8B8EA5",
+              "fontSize": 12,
+              "lineHeight": 14,
+            },
+          ]
+        }
+      >
+        SUNNY
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CitySelection  should handle city press 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListHeaderComponent={
+    <SearchField
+      onChangeText={[Function]}
+      value=""
+    />
+  }
+  data={
+    Array [
+      Object {
+        "clouds": Object {
+          "all": 20,
+        },
+        "coord": Object {
+          "lat": 1024546,
+          "lon": 1525545,
+        },
+        "dt": 1024546,
+        "id": 1024546,
+        "main": Object {
+          "feels_like": 23,
+          "temp": 20.7,
+          "temp_max": 21,
+          "temp_min": 15,
+        },
+        "name": "City",
+        "sys": Object {
+          "sunrise": 1525545,
+          "sunset": 1024546,
+        },
+        "visibility": 95,
+        "weather": Array [
+          Object {
+            "description": "Sunny",
+          },
+        ],
+        "wind": Object {
+          "deg": 10,
+          "speed": 10,
+        },
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      refreshing={false}
+    />
+  }
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={
+    Array [
+      0,
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "#191C39",
+      "flex": 1,
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#191C39",
+            "paddingBottom": 30,
+            "paddingHorizontal": 32,
+            "paddingTop": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#fff",
+              "borderBottomWidth": 2,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter the name of city"
+            placeholderTextColor="#8B8EA5"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "color": "#fff",
+                "flex": 1,
+                "fontFamily": "WorkSans-Regular.ttf",
+                "fontSize": 16,
+                "marginRight": 10,
+              }
+            }
+            testID="SearchField.TextInput"
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 40,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+            "paddingLeft": 33,
+            "paddingVertical": 20,
+          }
+        }
+        testID="CityCard.TouchableOpacity"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 36,
+                  "lineHeight": 42,
+                },
+              ]
+            }
+          >
+            20.7
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "lineHeight": 18,
+                },
+              ]
+            }
+          >
+            0
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "width": 80,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontSize": 35,
+                  },
+                  Object {
+                    "marginRight": 28,
+                  },
+                  Object {
+                    "fontFamily": "Fontisto",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "WorkSans-SemiBold",
+                    "fontSize": 24,
+                    "lineHeight": 28,
+                  },
+                ]
+              }
+            >
+              City
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontSize": 12,
+                    "lineHeight": 14,
+                  },
+                ]
+              }
+            >
+              SUNNY
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`CitySelection  should handle search 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListHeaderComponent={
+    <SearchField
+      onChangeText={[Function]}
+      value=""
+    />
+  }
+  data={
+    Array [
+      Object {
+        "clouds": Object {
+          "all": 20,
+        },
+        "coord": Object {
+          "lat": 1024546,
+          "lon": 1525545,
+        },
+        "dt": 1024546,
+        "id": 1024546,
+        "main": Object {
+          "feels_like": 23,
+          "temp": 20.7,
+          "temp_max": 21,
+          "temp_min": 15,
+        },
+        "name": "City",
+        "sys": Object {
+          "sunrise": 1525545,
+          "sunset": 1024546,
+        },
+        "visibility": 95,
+        "weather": Array [
+          Object {
+            "description": "Sunny",
+          },
+        ],
+        "wind": Object {
+          "deg": 10,
+          "speed": 10,
+        },
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      refreshing={false}
+    />
+  }
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={
+    Array [
+      0,
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "#191C39",
+      "flex": 1,
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#191C39",
+            "paddingBottom": 30,
+            "paddingHorizontal": 32,
+            "paddingTop": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#fff",
+              "borderBottomWidth": 2,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter the name of city"
+            placeholderTextColor="#8B8EA5"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "color": "#fff",
+                "flex": 1,
+                "fontFamily": "WorkSans-Regular.ttf",
+                "fontSize": 16,
+                "marginRight": 10,
+              }
+            }
+            testID="SearchField.TextInput"
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 40,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+            "paddingLeft": 33,
+            "paddingVertical": 20,
+          }
+        }
+        testID="CityCard.TouchableOpacity"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 36,
+                  "lineHeight": 42,
+                },
+              ]
+            }
+          >
+            20.7
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "lineHeight": 18,
+                },
+              ]
+            }
+          >
+            0
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "width": 80,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontSize": 35,
+                  },
+                  Object {
+                    "marginRight": 28,
+                  },
+                  Object {
+                    "fontFamily": "Fontisto",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "WorkSans-SemiBold",
+                    "fontSize": 24,
+                    "lineHeight": 28,
+                  },
+                ]
+              }
+            >
+              City
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontSize": 12,
+                    "lineHeight": 14,
+                  },
+                ]
+              }
+            >
+              SUNNY
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`CitySelection  should render 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListHeaderComponent={
+    <SearchField
+      onChangeText={[Function]}
+      value=""
+    />
+  }
+  data={
+    Array [
+      Object {
+        "clouds": Object {
+          "all": 20,
+        },
+        "coord": Object {
+          "lat": 1024546,
+          "lon": 1525545,
+        },
+        "dt": 1024546,
+        "id": 1024546,
+        "main": Object {
+          "feels_like": 23,
+          "temp": 20.7,
+          "temp_max": 21,
+          "temp_min": 15,
+        },
+        "name": "City",
+        "sys": Object {
+          "sunrise": 1525545,
+          "sunset": 1024546,
+        },
+        "visibility": 95,
+        "weather": Array [
+          Object {
+            "description": "Sunny",
+          },
+        ],
+        "wind": Object {
+          "deg": 10,
+          "speed": 10,
+        },
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      refreshing={false}
+    />
+  }
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={
+    Array [
+      0,
+    ]
+  }
+  style={
+    Object {
+      "backgroundColor": "#191C39",
+      "flex": 1,
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#191C39",
+            "paddingBottom": 30,
+            "paddingHorizontal": 32,
+            "paddingTop": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#fff",
+              "borderBottomWidth": 2,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter the name of city"
+            placeholderTextColor="#8B8EA5"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "color": "#fff",
+                "flex": 1,
+                "fontFamily": "WorkSans-Regular.ttf",
+                "fontSize": 16,
+                "marginRight": 10,
+              }
+            }
+            testID="SearchField.TextInput"
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 40,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "opacity": 1,
+            "paddingLeft": 33,
+            "paddingVertical": 20,
+          }
+        }
+        testID="CityCard.TouchableOpacity"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 36,
+                  "lineHeight": 42,
+                },
+              ]
+            }
+          >
+            20.7
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "lineHeight": 18,
+                },
+              ]
+            }
+          >
+            0
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "width": 80,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontSize": 35,
+                  },
+                  Object {
+                    "marginRight": 28,
+                  },
+                  Object {
+                    "fontFamily": "Fontisto",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#fff",
+                    "fontFamily": "WorkSans-SemiBold",
+                    "fontSize": 24,
+                    "lineHeight": 28,
+                  },
+                ]
+              }
+            >
+              City
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontSize": 12,
+                    "lineHeight": 14,
+                  },
+                ]
+              }
+            >
+              SUNNY
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Forecast  should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#191C39",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      ItemSeparatorComponent={[Function]}
+      data={
+        Array [
+          Object {
+            "2021-04-22": Array [
+              "6",
+              "18",
+            ],
+            "weatherDescription": Array [
+              "light rain",
+            ],
+          },
+          Object {
+            "2021-03-07": Array [
+              "6",
+              "18",
+            ],
+            "weatherDescription": Array [
+              "light rain",
+            ],
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#8B8EA5",
+                "borderBottomWidth": 2,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingLeft": 33,
+                "paddingVertical": 22,
+              }
+            }
+            testID="DailyWeather.TouchableOpacity.Day.2021-04-22"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 28,
+                    "lineHeight": 32,
+                    "width": 80,
+                  },
+                ]
+              }
+            >
+              Today
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#8B8EA5",
+                      "fontSize": 35,
+                    },
+                    Object {
+                      "marginLeft": 15,
+                      "marginRight": 20,
+                      "textAlign": "center",
+                      "width": 50,
+                    },
+                    Object {
+                      "fontFamily": "Fontisto",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "WorkSans-Regular",
+                        },
+                        Object {
+                          "color": "#fff",
+                          "fontSize": 32,
+                          "lineHeight": 36,
+                        },
+                      ]
+                    }
+                  >
+                    6
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "WorkSans-Regular",
+                        },
+                        Object {
+                          "color": "#fff",
+                          "fontSize": 18,
+                          "lineHeight": 18,
+                        },
+                      ]
+                    }
+                  >
+                    0
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#8B8EA5",
+                        "borderRadius": 15,
+                        "height": 12,
+                        "marginHorizontal": 5,
+                        "maxWidth": 85,
+                      },
+                      Object {
+                        "width": 36,
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "WorkSans-Regular",
+                        },
+                        Object {
+                          "color": "#fff",
+                          "fontSize": 32,
+                          "lineHeight": 36,
+                        },
+                      ]
+                    }
+                  >
+                    18
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "WorkSans-Regular",
+                        },
+                        Object {
+                          "color": "#fff",
+                          "fontSize": 18,
+                          "lineHeight": 18,
+                        },
+                      ]
+                    }
+                  >
+                    0
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#8B8EA5",
+                "height": 2,
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#8B8EA5",
+                "borderBottomWidth": 2,
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingLeft": 33,
+                "paddingVertical": 22,
+              }
+            }
+            testID="DailyWeather.TouchableOpacity.Day.2021-03-07"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 28,
+                    "lineHeight": 32,
+                    "width": 80,
+                  },
+                ]
+              }
+            >
+              Sun
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#8B8EA5",
+                      "fontSize": 35,
+                    },
+                    Object {
+                      "marginLeft": 15,
+                      "marginRight": 20,
+                      "textAlign": "center",
+                      "width": 50,
+                    },
+                    Object {
+                      "fontFamily": "Fontisto",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "WorkSans-Regular",
+                        },
+                        Object {
+                          "color": "#fff",
+                          "fontSize": 32,
+                          "lineHeight": 36,
+                        },
+                      ]
+                    }
+                  >
+                    6
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "WorkSans-Regular",
+                        },
+                        Object {
+                          "color": "#fff",
+                          "fontSize": 18,
+                          "lineHeight": 18,
+                        },
+                      ]
+                    }
+                  >
+                    0
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#8B8EA5",
+                        "borderRadius": 15,
+                        "height": 12,
+                        "marginHorizontal": 5,
+                        "maxWidth": 85,
+                      },
+                      Object {
+                        "width": 36,
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-start",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "WorkSans-Regular",
+                        },
+                        Object {
+                          "color": "#fff",
+                          "fontSize": 32,
+                          "lineHeight": 36,
+                        },
+                      ]
+                    }
+                  >
+                    18
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "fontFamily": "WorkSans-Regular",
+                        },
+                        Object {
+                          "color": "#fff",
+                          "fontSize": 18,
+                          "lineHeight": 18,
+                        },
+                      ]
+                    }
+                  >
+                    0
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

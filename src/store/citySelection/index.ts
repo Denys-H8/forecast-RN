@@ -1,0 +1,1 @@
+export { cityReducer } from './reducer';

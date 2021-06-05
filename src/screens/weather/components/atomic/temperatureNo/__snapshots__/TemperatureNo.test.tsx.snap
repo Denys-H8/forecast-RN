@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemperatureNo  should render TemperatureNo 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 60,
+          "lineHeight": 70,
+        },
+      ]
+    }
+  >
+    19
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 25,
+          "lineHeight": 30,
+        },
+      ]
+    }
+  >
+    0
+  </Text>
+</View>
+`;

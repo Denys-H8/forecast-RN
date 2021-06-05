@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stat  should render Stat with not properly category name 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <IconMock
+    fill="#fff"
+    height={32}
+    testID="Stat.Icon"
+    width={32}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "marginTop": 10,
+        },
+      ]
+    }
+  >
+    Some text
+  </Text>
+</View>
+`;
+
+exports[`Stat  should render Stat with properly category name 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <IconMock
+    fill="#fff"
+    height={26}
+    testID="Stat.Icon"
+    width={26}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "marginTop": 10,
+        },
+      ]
+    }
+  >
+    Some text
+  </Text>
+</View>
+`;
+
+exports[`Stat  should render Stat with properly category name 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <IconMock
+    fill="#fff"
+    height={28}
+    testID="Stat.Icon"
+    width={28}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "marginTop": 10,
+        },
+      ]
+    }
+  >
+    Some text
+  </Text>
+</View>
+`;
+
+exports[`Stat  should render Stat with properly category name 3`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <IconMock
+    fill="#fff"
+    height={28}
+    testID="Stat.Icon"
+    width={28}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "marginTop": 10,
+        },
+      ]
+    }
+  >
+    Some text
+  </Text>
+</View>
+`;

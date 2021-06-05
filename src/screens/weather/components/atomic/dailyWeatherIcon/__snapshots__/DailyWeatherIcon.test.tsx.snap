@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyWeatherIcon  should render DailyWeatherIcon 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": "#8B8EA5",
+        "fontSize": 45,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Fontisto",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  
+</Text>
+`;

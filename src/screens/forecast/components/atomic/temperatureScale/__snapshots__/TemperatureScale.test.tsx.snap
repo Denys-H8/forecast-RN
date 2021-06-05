@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemperatureScale  should render imperial and temp diff <= 3 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 32,
+            "lineHeight": 36,
+          },
+        ]
+      }
+    >
+      14
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#8B8EA5",
+          "borderRadius": 15,
+          "height": 12,
+          "marginHorizontal": 5,
+          "maxWidth": 85,
+        },
+        Object {
+          "width": 25,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 32,
+            "lineHeight": 36,
+          },
+        ]
+      }
+    >
+      16
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TemperatureScale  should render metric and temp diff > 3 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 32,
+            "lineHeight": 36,
+          },
+        ]
+      }
+    >
+      15
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#8B8EA5",
+          "borderRadius": 15,
+          "height": 12,
+          "marginHorizontal": 5,
+          "maxWidth": 85,
+        },
+        Object {
+          "width": 72,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 32,
+            "lineHeight": 36,
+          },
+        ]
+      }
+    >
+      27
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+</View>
+`;

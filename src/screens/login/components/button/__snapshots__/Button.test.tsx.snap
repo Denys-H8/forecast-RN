@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button  render disabled button 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "green",
+      "borderRadius": 100,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 0.4,
+    }
+  }
+  testID="Button.TouchableOpacity"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 16,
+          "lineHeight": 18,
+        },
+      ]
+    }
+  >
+    LOGIN
+  </Text>
+</View>
+`;
+
+exports[`Button  render not disabled button 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "green",
+      "borderRadius": 100,
+      "height": 48,
+      "justifyContent": "center",
+      "opacity": 1,
+    }
+  }
+  testID="Button.TouchableOpacity"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 16,
+          "lineHeight": 18,
+        },
+      ]
+    }
+  >
+    LOGIN
+  </Text>
+</View>
+`;

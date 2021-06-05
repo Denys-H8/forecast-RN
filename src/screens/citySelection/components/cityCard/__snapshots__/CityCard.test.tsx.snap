@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CityCard 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "paddingLeft": 33,
+      "paddingVertical": 20,
+    }
+  }
+  testID="CityCard.TouchableOpacity"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "width": 80,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 36,
+            "lineHeight": 42,
+          },
+        ]
+      }
+    >
+      20.7
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "width": 80,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#8B8EA5",
+              "fontSize": 35,
+            },
+            Object {
+              "marginRight": 28,
+            },
+            Object {
+              "fontFamily": "Fontisto",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontFamily": "WorkSans-SemiBold",
+              "fontSize": 24,
+              "lineHeight": 28,
+            },
+          ]
+        }
+      >
+        City
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#8B8EA5",
+              "fontSize": 12,
+              "lineHeight": 14,
+            },
+          ]
+        }
+      >
+        SUNNY
+      </Text>
+    </View>
+  </View>
+</View>
+`;

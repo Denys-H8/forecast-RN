@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyWeatherText  should render DailyWeatherText 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#8B8EA5",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    Some
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#8B8EA5",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
+`;
+
+exports[`DailyWeatherText  should render DailyWeatherText with long word 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#8B8EA5",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    Ivano-Frankivsk
+  </Text>
+</View>
+`;

@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Forecast  should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#191C39",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#8B8EA5",
+          "borderBottomWidth": 2,
+          "paddingBottom": 6,
+          "paddingHorizontal": 32,
+          "paddingTop": 12,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#191C39",
+            "borderBottomColor": "#fff",
+            "borderBottomWidth": 2,
+            "marginBottom": 26,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Name"
+          placeholderTextColor="#8B8EA5"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "WorkSans-Regular.ttf",
+              "fontSize": 16,
+              "lineHeight": 18,
+            }
+          }
+          testID="InputField.TextInput"
+          underlineColorAndroid="transparent"
+          value="Name"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#191C39",
+            "borderBottomColor": "#fff",
+            "borderBottomWidth": 2,
+            "marginBottom": 26,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Age"
+          placeholderTextColor="#8B8EA5"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "WorkSans-Regular.ttf",
+              "fontSize": 16,
+              "lineHeight": 18,
+            }
+          }
+          testID="InputField.TextInput"
+          underlineColorAndroid="transparent"
+          value="19"
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#8B8EA5",
+          "borderBottomWidth": 2,
+          "paddingBottom": 6,
+          "paddingHorizontal": 32,
+          "paddingTop": 12,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "WorkSans-SemiBold",
+                  "fontSize": 22,
+                  "lineHeight": 36,
+                },
+              ]
+            }
+          >
+            Show weather for
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 22,
+                  "lineHeight": 36,
+                },
+              ]
+            }
+          >
+            4 days
+          </Text>
+        </View>
+        <RNCSlider
+          disabled={false}
+          enabled={true}
+          inverted={false}
+          maximumTrackTintColor="#8B8EA5"
+          maximumValue={5}
+          minimumTrackTintColor="#7B61FF"
+          minimumValue={1}
+          onChange={[Function]}
+          onRNCSliderSlidingComplete={null}
+          onRNCSliderSlidingStart={null}
+          onRNCSliderValueChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          step={1}
+          style={
+            Array [
+              Object {
+                "height": 40,
+              },
+              Object {
+                "height": 40,
+              },
+            ]
+          }
+          testID="Slider.Slider"
+          thumbImage={null}
+          value={4}
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderBottomColor": "#8B8EA5",
+          "borderBottomWidth": 2,
+          "paddingBottom": 6,
+          "paddingHorizontal": 32,
+          "paddingTop": 12,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "WorkSans-SemiBold",
+                  "fontSize": 22,
+                  "lineHeight": 36,
+                },
+              ]
+            }
+          >
+            Update weather every
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "WorkSans-Regular",
+                },
+                Object {
+                  "color": "#fff",
+                  "fontSize": 22,
+                  "lineHeight": 36,
+                },
+              ]
+            }
+          >
+            15 min
+          </Text>
+        </View>
+        <RNCSlider
+          disabled={false}
+          enabled={true}
+          inverted={false}
+          maximumTrackTintColor="#8B8EA5"
+          maximumValue={60}
+          minimumTrackTintColor="#7B61FF"
+          minimumValue={5}
+          onChange={[Function]}
+          onRNCSliderSlidingComplete={null}
+          onRNCSliderSlidingStart={null}
+          onRNCSliderValueChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          step={1}
+          style={
+            Array [
+              Object {
+                "height": 40,
+              },
+              Object {
+                "height": 40,
+              },
+            ]
+          }
+          testID="Slider.Slider"
+          thumbImage={null}
+          value={15}
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#8B8EA5",
+            "borderBottomWidth": 2,
+            "paddingBottom": 6,
+            "paddingHorizontal": 32,
+            "paddingTop": 12,
+          },
+          Object {
+            "flexDirection": "row",
+            "paddingBottom": 18,
+            "paddingTop": 18,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="Settings.Scale.Metric"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Array [
+                    Object {
+                      "color": "#8B8EA5",
+                      "fontFamily": "WorkSans-SemiBold",
+                      "fontSize": 16,
+                      "lineHeight": 18,
+                    },
+                    Object {
+                      "color": "#fff",
+                    },
+                  ],
+                ]
+              }
+            >
+              0
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Array [
+                    Object {
+                      "color": "#8B8EA5",
+                      "fontFamily": "WorkSans-SemiBold",
+                      "fontSize": 28,
+                      "lineHeight": 30,
+                    },
+                    Object {
+                      "color": "#fff",
+                    },
+                  ],
+                ]
+              }
+            >
+              C
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#8B8EA5",
+            "marginHorizontal": 10,
+            "width": 2,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="Settings.Scale.Imperial"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontFamily": "WorkSans-SemiBold",
+                    "fontSize": 16,
+                    "lineHeight": 18,
+                  },
+                ]
+              }
+            >
+              0
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "fontFamily": "WorkSans-Regular",
+                  },
+                  Object {
+                    "color": "#8B8EA5",
+                    "fontFamily": "WorkSans-SemiBold",
+                    "fontSize": 28,
+                    "lineHeight": 30,
+                  },
+                ]
+              }
+            >
+              F
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomColor": "#8B8EA5",
+            "borderBottomWidth": 2,
+            "paddingBottom": 6,
+            "paddingHorizontal": 32,
+            "paddingTop": 12,
+          },
+          Object {
+            "borderBottomWidth": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="Settings.Logout"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "WorkSans-ExtraBold",
+                "fontSize": 52,
+                "lineHeight": 61,
+              },
+              Object {
+                "color": "#fff",
+                "fontSize": 28,
+                "lineHeight": 30,
+                "marginTop": 18,
+              },
+            ]
+          }
+        >
+          Logout
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

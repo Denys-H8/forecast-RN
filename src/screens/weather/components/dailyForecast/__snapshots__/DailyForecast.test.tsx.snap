@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyDetailedForecast  should render correctly with not today date 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 70,
+      "justifyContent": "space-between",
+      "marginTop": 22,
+      "paddingHorizontal": 32,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 60,
+            "lineHeight": 70,
+          },
+        ]
+      }
+    >
+      17
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 25,
+            "lineHeight": 30,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#8B8EA5",
+          "fontSize": 45,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Fontisto",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#8B8EA5",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      LIGHT
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#8B8EA5",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      RAIN
+    </Text>
+  </View>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 20,
+          },
+        ]
+      }
+    >
+      6 /
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 18,
+              "lineHeight": 20,
+            },
+          ]
+        }
+      >
+        18
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 12,
+              "lineHeight": 12,
+            },
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 18,
+              "lineHeight": 20,
+            },
+          ]
+        }
+      >
+        C
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`DailyDetailedForecast  should render correctly with today date 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 70,
+      "justifyContent": "space-between",
+      "marginTop": 22,
+      "paddingHorizontal": 32,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 60,
+            "lineHeight": 70,
+          },
+        ]
+      }
+    >
+      18
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 25,
+            "lineHeight": 30,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#8B8EA5",
+          "fontSize": 45,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Fontisto",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#8B8EA5",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      SCATTERED
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#8B8EA5",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      CLOUDS
+    </Text>
+  </View>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 20,
+          },
+        ]
+      }
+    >
+      6 /
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 18,
+              "lineHeight": 20,
+            },
+          ]
+        }
+      >
+        18
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 12,
+              "lineHeight": 12,
+            },
+          ]
+        }
+      >
+        0
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 18,
+              "lineHeight": 20,
+            },
+          ]
+        }
+      >
+        C
+      </Text>
+    </View>
+  </View>
+</View>
+`;

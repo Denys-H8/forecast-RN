@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField  should render InputField 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#191C39",
+      "borderBottomColor": "#fff",
+      "borderBottomWidth": 2,
+      "marginBottom": 26,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "New text value",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    placeholder="Placeholder value"
+    placeholderTextColor="#8B8EA5"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "color": "#fff",
+        "fontFamily": "WorkSans-Regular.ttf",
+        "fontSize": 16,
+        "lineHeight": 18,
+      }
+    }
+    testID="InputField.TextInput"
+    underlineColorAndroid="transparent"
+    value="Some text value"
+  />
+</View>
+`;

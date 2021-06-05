@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Splash  should render Splash 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#191C39",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontFamily": "WorkSans-SemiBold",
+          "fontSize": 64,
+          "lineHeight": 75,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    WEATHER APP
+  </Text>
+</View>
+`;

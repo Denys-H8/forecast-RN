@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemperatureType  should render active metric TemperatureType 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Array [
+            Object {
+              "color": "#8B8EA5",
+              "fontFamily": "WorkSans-SemiBold",
+              "fontSize": 16,
+              "lineHeight": 18,
+            },
+            Object {
+              "color": "#fff",
+            },
+          ],
+        ]
+      }
+    >
+      0
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Array [
+            Object {
+              "color": "#8B8EA5",
+              "fontFamily": "WorkSans-SemiBold",
+              "fontSize": 28,
+              "lineHeight": 30,
+            },
+            Object {
+              "color": "#fff",
+            },
+          ],
+        ]
+      }
+    >
+      C
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TemperatureType  should render not active imperial TemperatureType 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#8B8EA5",
+            "fontFamily": "WorkSans-SemiBold",
+            "fontSize": 16,
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#8B8EA5",
+            "fontFamily": "WorkSans-SemiBold",
+            "fontSize": 28,
+            "lineHeight": 30,
+          },
+        ]
+      }
+    >
+      F
+    </Text>
+  </View>
+</View>
+`;

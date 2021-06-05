@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyDetailedForecast  should render correctly with not today date 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "space-between",
+      "marginTop": 15,
+      "paddingLeft": 32,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-ExtraBold",
+          "fontSize": 52,
+          "lineHeight": 61,
+        },
+        Object {
+          "color": "#fff",
+        },
+      ]
+    }
+  >
+    Kharkiv
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#8B8EA5",
+          "fontSize": 20,
+          "lineHeight": 23.5,
+        },
+      ]
+    }
+  >
+    THURSDAY, APRIL 22
+  </Text>
+</View>
+`;
+
+exports[`DailyDetailedForecast  should render correctly with today date 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "space-between",
+      "marginTop": 15,
+      "paddingLeft": 32,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-ExtraBold",
+          "fontSize": 52,
+          "lineHeight": 61,
+        },
+        Object {
+          "color": "#fff",
+        },
+      ]
+    }
+  >
+    Kharkiv
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#8B8EA5",
+          "fontSize": 20,
+          "lineHeight": 23.5,
+        },
+      ]
+    }
+  >
+    THURSDAY, APRIL 22
+  </Text>
+</View>
+`;

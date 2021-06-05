@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyWeatherDegrees  should render DailyWeatherDegrees 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "WorkSans-Regular",
+        },
+        Object {
+          "color": "#fff",
+          "fontSize": 18,
+          "lineHeight": 20,
+        },
+      ]
+    }
+  >
+    15 /
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 20,
+          },
+        ]
+      }
+    >
+      27
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 12,
+            "lineHeight": 12,
+          },
+        ]
+      }
+    >
+      0
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 18,
+            "lineHeight": 20,
+          },
+        ]
+      }
+    >
+      C
+    </Text>
+  </View>
+</View>
+`;

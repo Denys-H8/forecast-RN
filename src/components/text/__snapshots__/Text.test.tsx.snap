@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading snapshot 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontFamily": "WorkSans-ExtraBold",
+        "fontSize": 52,
+        "lineHeight": 61,
+      },
+      undefined,
+    ]
+  }
+>
+  Some Text
+</Text>
+`;
+
+exports[`Loading snapshot 2`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontFamily": "WorkSans-Regular",
+      },
+      undefined,
+    ]
+  }
+>
+  Some Text
+</Text>
+`;
+
+exports[`Loading snapshot 3`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontFamily": "WorkSans-Regular",
+      },
+      Object {
+        "color": "#8B8EA5",
+      },
+    ]
+  }
+>
+  Some Text
+</Text>
+`;

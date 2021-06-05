@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationCard  should render with user 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#464960",
+      "opacity": 0.8,
+    }
+  }
+  testID="NotificationCard.TouchableOpacity"
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#7B61FF",
+        "height": 5,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 30,
+        "paddingVertical": 15,
+      }
+    }
+  >
+    <IconMock
+      height={28}
+      width={28}
+    />
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-ExtraBold",
+              "fontSize": 52,
+              "lineHeight": 61,
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 18,
+              "lineHeight": 20,
+              "marginBottom": 8,
+            },
+          ]
+        }
+      >
+        Some title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-ExtraBold",
+              "fontSize": 52,
+              "lineHeight": 61,
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 16,
+              "lineHeight": 16,
+            },
+          ]
+        }
+      >
+        Some message
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "padding": 5,
+        }
+      }
+      testID="NotificationCard.TouchableOpacity.Remove"
+    >
+      <IconMock
+        height={24}
+        width={24}
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`NotificationCard  should render without user 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#464960",
+      "opacity": 0.8,
+    }
+  }
+  testID="NotificationCard.TouchableOpacity"
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#7B61FF",
+        "height": 5,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 30,
+        "paddingVertical": 15,
+      }
+    }
+  >
+    <IconMock
+      height={28}
+      width={28}
+    />
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-ExtraBold",
+              "fontSize": 52,
+              "lineHeight": 61,
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 18,
+              "lineHeight": 20,
+              "marginBottom": 8,
+            },
+          ]
+        }
+      >
+        Some title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-ExtraBold",
+              "fontSize": 52,
+              "lineHeight": 61,
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 16,
+              "lineHeight": 16,
+            },
+          ]
+        }
+      >
+        Some message
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "padding": 5,
+        }
+      }
+      testID="NotificationCard.TouchableOpacity.Remove"
+    >
+      <IconMock
+        height={24}
+        width={24}
+      />
+    </View>
+  </View>
+</View>
+`;

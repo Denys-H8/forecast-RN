@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyDetailedForecast  should render correctly with not today date 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 148,
+      "justifyContent": "space-between",
+      "paddingHorizontal": 32,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <IconMock
+      fill="#fff"
+      height={32}
+      testID="Stat.Icon"
+      width={32}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      44%
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <IconMock
+      fill="#fff"
+      height={26}
+      testID="Stat.Icon"
+      width={26}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      4m/c
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <IconMock
+      fill="#fff"
+      height={28}
+      testID="Stat.Icon"
+      width={28}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      05:27
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <IconMock
+      fill="#fff"
+      height={28}
+      testID="Stat.Icon"
+      width={28}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      19:38
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`DailyDetailedForecast  should render correctly with today date 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 148,
+      "justifyContent": "space-between",
+      "paddingHorizontal": 32,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <IconMock
+      fill="#fff"
+      height={32}
+      testID="Stat.Icon"
+      width={32}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      32%
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <IconMock
+      fill="#fff"
+      height={26}
+      testID="Stat.Icon"
+      width={26}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      6m/c
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <IconMock
+      fill="#fff"
+      height={28}
+      testID="Stat.Icon"
+      width={28}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      05:27
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <IconMock
+      fill="#fff"
+      height={28}
+      testID="Stat.Icon"
+      width={28}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      19:38
+    </Text>
+  </View>
+</View>
+`;

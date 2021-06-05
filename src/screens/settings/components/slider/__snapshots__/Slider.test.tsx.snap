@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField  should render InputField 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontFamily": "WorkSans-SemiBold",
+            "fontSize": 22,
+            "lineHeight": 36,
+          },
+        ]
+      }
+    >
+      New title value
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#fff",
+            "fontSize": 22,
+            "lineHeight": 36,
+          },
+        ]
+      }
+    >
+      Some text value
+    </Text>
+  </View>
+  <RNCSlider
+    disabled={false}
+    enabled={true}
+    inverted={false}
+    maximumTrackTintColor="#8B8EA5"
+    maximumValue={10}
+    minimumTrackTintColor="#7B61FF"
+    minimumValue={0}
+    onChange={[Function]}
+    onRNCSliderSlidingComplete={null}
+    onRNCSliderSlidingStart={null}
+    onRNCSliderValueChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    step={1}
+    style={
+      Array [
+        Object {
+          "height": 40,
+        },
+        Object {
+          "height": 40,
+        },
+      ]
+    }
+    testID="Slider.Slider"
+    thumbImage={null}
+    value={5}
+  />
+</View>
+`;

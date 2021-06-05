@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyDetailedForecast  should render correctly with not today date 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomWidth": 2,
+      "borderColor": "#8B8EA5",
+      "borderTopWidth": 2,
+      "flexDirection": "row",
+      "height": 160,
+      "justifyContent": "space-between",
+      "paddingHorizontal": 32,
+    }
+  }
+/>
+`;
+
+exports[`DailyDetailedForecast  should render correctly with today date 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomWidth": 2,
+      "borderColor": "#8B8EA5",
+      "borderTopWidth": 2,
+      "flexDirection": "row",
+      "height": 160,
+      "justifyContent": "space-between",
+      "paddingHorizontal": 32,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 90,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#8B8EA5",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      16:00
+    </Text>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 28,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Fontisto",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        17.3
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 12,
+              "lineHeight": 12,
+            },
+          ]
+        }
+      >
+        0
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 90,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "WorkSans-Regular",
+          },
+          Object {
+            "color": "#8B8EA5",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      17:00
+    </Text>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 28,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Fontisto",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        17.9
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "WorkSans-Regular",
+            },
+            Object {
+              "color": "#fff",
+              "fontSize": 12,
+              "lineHeight": 12,
+            },
+          ]
+        }
+      >
+        0
+      </Text>
+    </View>
+  </View>
+</View>
+`;

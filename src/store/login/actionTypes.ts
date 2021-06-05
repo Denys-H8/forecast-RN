@@ -1,0 +1,11 @@
+export const LOGIN = 'LOGIN';
+export const LOGIN_STARTED = 'LOGIN_STARTED';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const CHANGED_EMAIL = 'CHANGED_EMAIL';
+export const CHANGED_PASSWORD = 'CHANGED_PASSWORD';
+export const FAILED_EMAIL = 'FAILED_EMAIL';
+export const FAILED_PASSWORD = 'FAILED_PASSWORD';
+export const LOGOUT = 'LOGOUT';
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const START_LOADING = 'START_LOADING';
+export const LOADING_LOGIN = 'LOADING_LOGIN';

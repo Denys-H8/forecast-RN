@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#191C39",
+      "paddingBottom": 30,
+      "paddingHorizontal": 32,
+      "paddingTop": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#fff",
+        "borderBottomWidth": 2,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Enter the name of city"
+      placeholderTextColor="#8B8EA5"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "color": "#fff",
+          "flex": 1,
+          "fontFamily": "WorkSans-Regular.ttf",
+          "fontSize": 16,
+          "marginRight": 10,
+        }
+      }
+      testID="SearchField.TextInput"
+      underlineColorAndroid="transparent"
+      value="Some text"
+    />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 40,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Material Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
